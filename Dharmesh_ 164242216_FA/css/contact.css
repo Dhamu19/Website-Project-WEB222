@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  .btn {
+    align-items: center;
+    background-color: #3EB2FD;
+    background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+    border-radius: 100px;
+    border-width: 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-flex;
+    font-size: 15px;
+    justify-content: center;
+    line-height: 1.5;
+    padding: 6px 20px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    white-space: nowrap;
+    }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  

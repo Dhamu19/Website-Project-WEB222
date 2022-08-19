@@ -1,0 +1,173 @@
+#section-1-gradient {
+    background: #076dff;
+      background: linear-gradient(#076dff, #65a5ff);
+      background: linear-gradient(#076dff, #65a5ff);
+      background: linear-gradient(#076dff, #65a5ff);
+      background: linear-gradient(#076dff, #65a5ff);
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding-top: 11%;
+    padding-bottom: 13.5%;   
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+Leftside Col
+
+.large1 {
+    color: white;
+    font-size: 120px;
+    margin: auto;
+    line-height: 120px;
+    font-family: 'Avantgarde', cursive;
+    text-align: center;
+}
+
+.large2 {
+    color: white;
+    font-size: 120px;
+    margin: auto;
+    line-height: 120px;
+    font-family: 'Avantgarde', cursive;
+    text-align: center;
+}
+
+
+.jobtitle1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 15px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.jobtitle2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    line-height: 15px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.leftSide-col {
+    text-align: center;
+}
+
+.btn {
+    padding: 11px 20px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 4;
+    font-size: 20px;
+}
+
+
+div.leftSide-col {
+    width: 70%;
+    margin-left: 30%;
+}
+
+
+
+
+Rightside Col
+
+div.rightSide-col {
+    margin-right: 30%;
+    text-align: center;
+}
+
+.facepic {
+    width: 300px;
+    border-radius: 25%;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .container {
+        padding-bottom: 100%;
+    }
+
+    .facepic{
+        width: 100%;
+        margin: 0%;
+        position: relative;
+        top: 525px;
+        left: -115px;
+    }
+
+    .btn {
+        position: relative;
+        right: -130px;
+        overflow-wrap: break-word;
+        padding: 11px;
+        top: 20px;
+        
+    }
+
+    .jobtitle1 {
+        width: max-content;
+        padding: 10px;
+    }
+
+    .jobtitle2 {
+        width: max-content;
+        padding: 10px;
+        position: relative;
+        left: 50px;
+    }
+
+    .large1 {
+        position: relative;
+        left: -35px;    
+    }
+
+    .large2 {
+        position: relative;
+        left: 95px;    
+    }
+
+} 
